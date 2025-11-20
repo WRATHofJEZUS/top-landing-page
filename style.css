@@ -1,0 +1,21 @@
+html body {
+    font-family: roboto;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1f2937; 
+    display: flex;
+    flex-shrink: 0;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-weight: 900;
+
+}
+
+.header-link {
+    display: flex;
+}
