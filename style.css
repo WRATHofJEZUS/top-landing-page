@@ -7,15 +7,64 @@ html body {
 .header {
     background-color: #1f2937; 
     display: flex;
-    flex-shrink: 0;
+    align-items: center;
 }
 
-.header-logo {
+.logo {
     color: #F9FAF8;
+    font-size: 48px;
     font-weight: 900;
+    display: flex;
+    margin-left: 16px;
+}
+
+.link {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.links {
+    display: flex;
+    margin-left: auto;
+    margin-right: 16px;
+    gap: 16px;
+}
+
+.subheader {
+    background-color: #1f2937;
+    display: flex;
+    flex: 1 1 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
+    width: 50%;
+}
+
+.large {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.small {
+    color: #D1D5DB;
+    font-size: 24px;
+}
+
+.a .button {
 
 }
 
-.header-link {
+.image {
+    color: #9CA3AF;
+    background-color: #374151;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    width: 50%;
 }
