@@ -34,6 +34,7 @@ html body {
     background-color: #1f2937;
     display: flex;
     flex: 1 1 0;
+    padding: 32px;
 }
 
 .content {
@@ -51,12 +52,12 @@ html body {
 }
 
 .small {
-    color: #D1D5DB;
-    font-size: 24px;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
-.a .button {
-
+.button {
+    background-color: #3882f6;
 }
 
 .image {
@@ -66,5 +67,6 @@ html body {
     justify-content: center;
     align-items: center;
     margin-right: 16px;
+    margin-left: 16px;
     width: 50%;
 }
