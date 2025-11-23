@@ -12,21 +12,21 @@ html body {
 
 .logo {
     color: #F9FAF8;
-    font-size: 48px;
+    font-size: 24px;
     font-weight: 900;
     display: flex;
-    margin-left: 16px;
+    margin-left: 48px;
 }
 
 .link {
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .links {
     display: flex;
     margin-left: auto;
-    margin-right: 16px;
+    margin-right: 48px;
     gap: 16px;
 }
 
@@ -47,17 +47,27 @@ html body {
 
 .large {
     color: #F9FAF8;
-    font-size: 24px;
+    font-size: 48px;
     font-weight: 900;
+    margin-bottom: 8px;
 }
 
 .small {
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 24px;
+    margin: auto;
 }
 
-.button {
+.content button {
     background-color: #3882f6;
+    color: #E5E7EB;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 24px;
+    border-radius: 12px;
+    margin-top: 8px;
+    border: none;
+    cursor: pointer;
 }
 
 .image {
@@ -69,4 +79,107 @@ html body {
     margin-right: 16px;
     margin-left: 16px;
     width: 50%;
+}
+
+.info {
+}
+
+.text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.pics {
+    border-color: #3882f6;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 16px;
+    width: 100px;
+    height: 100px;
+}
+
+.icons, .textbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.subtext {
+    color: grey;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    padding: 64px;
+}
+
+.quote-text {
+    font-size: 24px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.section-4 {
+    display: flex;
+    background-color: white;
+    padding: 36px;
+}
+
+.signup {
+    background-color: #3882f6;
+    border-radius: 12px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 18px;
+
+}
+
+.context {
+    display: flex;
+    color: white;
+
+}
+
+.content#1{
+    display: flex;
+}
+
+.context#2 {
+
+}
+
+.signup button {
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 8px;
+    color: white;
+
 }
